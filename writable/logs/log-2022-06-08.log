@@ -1,0 +1,61 @@
+CRITICAL - 2022-06-08 00:08:10 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 00:13:19 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 00:17:11 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 00:21:01 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 00:27:32 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 00:31:54 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 00:53:22 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 01:42:29 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 02:27:36 --> Undefined variable: row
+#0 D:\trupti\CRM1\CRM1\app\Views\current_openning_list.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 10, Array)
+#1 D:\trupti\CRM1\CRM1\system\View\View.php(210): include('D:\\trupti\\CRM1\\...')
+#2 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('current_opennin...', Array, true)
+#4 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(89): view('current_opennin...', Array)
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->current_opennings_list()
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#10 {main}
+CRITICAL - 2022-06-08 02:32:54 --> Undefined variable: current_opennings
+#0 D:\trupti\CRM1\CRM1\app\Views\add_current_opennings.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 66, Array)
+#1 D:\trupti\CRM1\CRM1\system\View\View.php(210): include('D:\\trupti\\CRM1\\...')
+#2 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('add_current_ope...', Array, true)
+#4 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(83): view('add_current_ope...', Array)
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->add_current_opennings()
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#10 {main}
+CRITICAL - 2022-06-08 12:18:08 --> SMTP Error: Could not connect to SMTP host.
+#0 D:\trupti\CRM1\CRM1\vendor\phpmailer\phpmailer\src\PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 D:\trupti\CRM1\CRM1\vendor\phpmailer\phpmailer\src\PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 8 Ju...', 'Job a\r\n')
+#2 D:\trupti\CRM1\CRM1\vendor\phpmailer\phpmailer\src\PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 D:\trupti\CRM1\CRM1\app\Helpers\base_helper.php(263): PHPMailer\PHPMailer\PHPMailer->send()
+#4 D:\trupti\CRM1\CRM1\app\Models\HomeModel.php(63): send_email('trupti.koffeeko...', 'Apply For Job', 'Job a', 'tessting')
+#5 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(46): App\Models\HomeModel->insert_edit_job(Array, Object(CodeIgniter\HTTP\Files\UploadedFile))
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->apply_for_job()
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#11 {main}

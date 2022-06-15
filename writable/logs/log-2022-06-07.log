@@ -1,0 +1,192 @@
+CRITICAL - 2022-06-07 00:02:44 --> Call to a member function isValid() on null
+#0 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(44): App\Models\HomeModel->insert_edit_job(Array, NULL)
+#1 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->apply_for_job()
+#2 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#6 {main}
+CRITICAL - 2022-06-07 00:03:04 --> Undefined variable: current_openning
+#0 D:\trupti\CRM1\CRM1\app\Views\Apply_for_job.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 10, Array)
+#1 D:\trupti\CRM1\CRM1\system\View\View.php(210): include('D:\\trupti\\CRM1\\...')
+#2 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('Apply_for_job', Array, true)
+#4 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(53): view('Apply_for_job', Array)
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->apply_for_job()
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#10 {main}
+CRITICAL - 2022-06-07 00:12:32 --> Undefined variable: current_openning
+#0 D:\trupti\CRM1\CRM1\app\Views\Apply_for_job.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 10, Array)
+#1 D:\trupti\CRM1\CRM1\system\View\View.php(210): include('D:\\trupti\\CRM1\\...')
+#2 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('Apply_for_job', Array, true)
+#4 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(53): view('Apply_for_job', Array)
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->apply_for_job()
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#10 {main}
+CRITICAL - 2022-06-07 00:22:57 --> Call to a member function isValid() on null
+#0 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(44): App\Models\HomeModel->insert_edit_job(Array, NULL)
+#1 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->apply_for_job()
+#2 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#6 {main}
+CRITICAL - 2022-06-07 02:43:31 --> syntax error, unexpected '}'
+#0 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('current_opening', Array, true)
+#2 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(34): view('current_opening', Array)
+#3 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->current_opening()
+#4 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#8 {main}
+CRITICAL - 2022-06-07 03:59:36 --> Undefined variable: current_openning
+#0 D:\trupti\CRM1\CRM1\app\Views\current_openning_list.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 18, Array)
+#1 D:\trupti\CRM1\CRM1\system\View\View.php(210): include('D:\\trupti\\CRM1\\...')
+#2 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('current_opennin...', Array, true)
+#4 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(83): view('current_opennin...', Array)
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->current_opennings_list()
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#10 {main}
+CRITICAL - 2022-06-07 03:59:56 --> Undefined index: sub_tilte
+#0 D:\trupti\CRM1\CRM1\app\Views\current_openning_list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\trupti\\CRM1\\...', 22, Array)
+#1 D:\trupti\CRM1\CRM1\system\View\View.php(210): include('D:\\trupti\\CRM1\\...')
+#2 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('current_opennin...', Array, true)
+#4 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(83): view('current_opennin...', Array)
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->current_opennings_list()
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#10 {main}
+CRITICAL - 2022-06-07 04:36:29 --> Trying to access array offset on value of type null
+#0 D:\trupti\CRM1\CRM1\app\Views\Apply_for_job.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\trupti\\CRM1\\...', 10, Array)
+#1 D:\trupti\CRM1\CRM1\system\View\View.php(210): include('D:\\trupti\\CRM1\\...')
+#2 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('Apply_for_job', Array, true)
+#4 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(53): view('Apply_for_job', Array)
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->apply_for_job('index.html')
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#10 {main}
+CRITICAL - 2022-06-07 04:53:09 --> Undefined property: App\Controllers\Home::$fmodel
+#0 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\trupti\\CRM1\\...', 95, Array)
+#1 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->Action('Update')
+#2 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#6 {main}
+CRITICAL - 2022-06-07 04:53:29 --> Class 'App\Models\GeneralModel' not found
+#0 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(95): App\Models\HomeModel->UpdateData(Array)
+#1 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->Action('Update')
+#2 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#6 {main}
+CRITICAL - 2022-06-07 05:55:17 --> Trying to access array offset on value of type null
+#0 D:\trupti\CRM1\CRM1\app\Views\Apply_for_job.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\trupti\\CRM1\\...', 10, Array)
+#1 D:\trupti\CRM1\CRM1\system\View\View.php(210): include('D:\\trupti\\CRM1\\...')
+#2 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('Apply_for_job', Array, true)
+#4 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(55): view('Apply_for_job', Array)
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->apply_for_job('1')
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#10 {main}
+CRITICAL - 2022-06-07 06:02:58 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 06:05:44 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 06:08:49 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 06:13:57 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 06:14:15 --> Undefined variable: subject
+#0 D:\trupti\CRM1\CRM1\app\Models\HomeModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 25, Array)
+#1 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(27): App\Models\HomeModel->insert_edit_user(Array)
+#2 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->lets_talk()
+#3 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#7 {main}
+CRITICAL - 2022-06-07 06:14:23 --> Undefined variable: subject
+#0 D:\trupti\CRM1\CRM1\app\Models\HomeModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 25, Array)
+#1 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(27): App\Models\HomeModel->insert_edit_user(Array)
+#2 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->lets_talk()
+#3 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#7 {main}
+CRITICAL - 2022-06-07 06:17:42 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 06:20:55 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 06:29:36 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 07:00:27 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 07:07:18 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 07:10:52 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 07:16:33 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 07:19:33 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 07:23:15 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 07:27:00 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 07:33:58 --> Undefined variable: current_opennings
+#0 D:\trupti\CRM1\CRM1\app\Views\add_current_opennings.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 66, Array)
+#1 D:\trupti\CRM1\CRM1\system\View\View.php(210): include('D:\\trupti\\CRM1\\...')
+#2 D:\trupti\CRM1\CRM1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\trupti\CRM1\CRM1\system\Common.php(1089): CodeIgniter\View\View->render('add_current_ope...', Array, true)
+#4 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(83): view('add_current_ope...', Array)
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->add_current_opennings()
+#6 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#10 {main}
+CRITICAL - 2022-06-07 23:46:14 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-07 23:59:02 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,5 @@
+[06-Jun-2022 00:34:06 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Home::current_Opening() in /home/epatrio1/crm.epatriotcrm.com/app/Controllers/Home.php on line 47
+[06-Jun-2022 00:34:51 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Home::current_Opening() in /home/epatrio1/crm.epatriotcrm.com/app/Controllers/Home.php on line 47
+[06-Jun-2022 00:35:18 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Home::current_Opening() in /home/epatrio1/crm.epatriotcrm.com/app/Controllers/Home.php on line 47
+[06-Jun-2022 00:35:20 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Home::current_Opening() in /home/epatrio1/crm.epatriotcrm.com/app/Controllers/Home.php on line 47
+[06-Jun-2022 00:35:26 America/Chicago] PHP Fatal error:  Cannot redeclare App\Controllers\Home::current_Opening() in /home/epatrio1/crm.epatriotcrm.com/app/Controllers/Home.php on line 47

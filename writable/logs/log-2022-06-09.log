@@ -1,0 +1,20 @@
+CRITICAL - 2022-06-09 06:40:38 --> Undefined variable: attachment
+#0 D:\trupti\CRM1\CRM1\app\Helpers\base_helper.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 297, Array)
+#1 D:\trupti\CRM1\CRM1\app\Models\HomeModel.php(82): send_email_employee('career@epatriot...', 'New Application...', 'Title:hbvjhc<br...', 'epatriotcrm', 'http://localhos...')
+#2 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(46): App\Models\HomeModel->insert_edit_job(Array, Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->apply_for_job()
+#4 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#8 {main}
+CRITICAL - 2022-06-09 06:40:46 --> Undefined variable: attachment
+#0 D:\trupti\CRM1\CRM1\app\Helpers\base_helper.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\trupti\\CRM1\\...', 297, Array)
+#1 D:\trupti\CRM1\CRM1\app\Models\HomeModel.php(82): send_email_employee('career@epatriot...', 'New Application...', 'Title:hbvjhc<br...', 'epatriotcrm', 'http://localhos...')
+#2 D:\trupti\CRM1\CRM1\app\Controllers\Home.php(46): App\Models\HomeModel->insert_edit_job(Array, Object(CodeIgniter\HTTP\Files\UploadedFile))
+#3 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(832): App\Controllers\Home->apply_for_job()
+#4 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\trupti\CRM1\CRM1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\trupti\CRM1\CRM1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\trupti\CRM1\CRM1\system\Commands\Server\rewrite.php(43): require_once('D:\\trupti\\CRM1\\...')
+#8 {main}
